@@ -20,6 +20,6 @@ class DoubanPipeline(object):
         pass
 
     def process_item(self, item, spider):
-        data=dict(item)
-        self.post.insert(data)
+        # data=dict(item)
+        # self.post.insert(data)
         return item
